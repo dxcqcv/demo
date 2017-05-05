@@ -42,7 +42,16 @@ const rules = {
     exclude: /node_modules/,
     use: ['style-loader','css-loader', 'postcss-loader', 'stylus-loader']
   },
-  
+  svg:{
+    test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+    use:[{ loader: 'url-loader',
+      options: {
+        limit:'10000',
+        mimetype: 'image/svg+xml',
+        name: '../svg/[name]-[hash:8].[ext]'
+      }
+    } ]
+  },  
   json: {
     test: /\.json$/,
     use: ['json-loader'] 
@@ -62,6 +71,7 @@ config.module = {
   rules: [
     rules.js,
     rules.html,
+    rules.svg,
     rules.json
   ]
 };
@@ -104,7 +114,7 @@ config.plugins = [
 if (ENV_DEVELOPMENT || ENV_PRODUCTION) {
   config.entry = {
     index:['babel-polyfill',path.resolve(__dirname, 'app/src/js/index.js')] ,
-    other: path.resolve(__dirname, 'app/src/js/other.js')
+    other:['babel-polyfill',path.resolve(__dirname, 'app/src/js/other.js')] ,
   };
 
   config.output = {
