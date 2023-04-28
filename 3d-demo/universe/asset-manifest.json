@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/demo/3d-demo/universe/static/css/main.a54c2b7d.css",
+    "main.js": "/demo/3d-demo/universe/static/js/main.210d3250.js",
+    "static/media/ani-tiles.exr": "/demo/3d-demo/universe/static/media/ani-tiles.feaa1a2d60a51182c6e3.exr",
+    "static/media/color-tiles.png": "/demo/3d-demo/universe/static/media/color-tiles.b7e02a3d594a01ccaae3.png",
+    "static/media/scale-texture.png": "/demo/3d-demo/universe/static/media/scale-texture.b85f9fdf0e4cd0b9e7fc.png",
+    "index.html": "/demo/3d-demo/universe/index.html",
+    "main.a54c2b7d.css.map": "/demo/3d-demo/universe/static/css/main.a54c2b7d.css.map",
+    "main.210d3250.js.map": "/demo/3d-demo/universe/static/js/main.210d3250.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a54c2b7d.css",
+    "static/js/main.210d3250.js"
+  ]
+}
