@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/demo/3d-demo/universe/static/css/main.a54c2b7d.css",
-    "main.js": "/demo/3d-demo/universe/static/js/main.210d3250.js",
+    "main.css": "/demo/3d-demo/universe/static/css/main.ef9a8160.css",
+    "main.js": "/demo/3d-demo/universe/static/js/main.f730b611.js",
     "static/media/ani-tiles.exr": "/demo/3d-demo/universe/static/media/ani-tiles.feaa1a2d60a51182c6e3.exr",
     "static/media/color-tiles.png": "/demo/3d-demo/universe/static/media/color-tiles.b7e02a3d594a01ccaae3.png",
+    "static/media/go.png": "/demo/3d-demo/universe/static/media/go.2dda0acb86c0aeca47c4.png",
+    "static/media/ready.png": "/demo/3d-demo/universe/static/media/ready.926b565e30f3569af51b.png",
+    "static/media/quantum.svg": "/demo/3d-demo/universe/static/media/quantum.2fc2cc4461bf0b084e99be2dc7d4c464.svg",
     "static/media/scale-texture.png": "/demo/3d-demo/universe/static/media/scale-texture.b85f9fdf0e4cd0b9e7fc.png",
+    "static/media/biopharmaceuticals.svg": "/demo/3d-demo/universe/static/media/biopharmaceuticals.217b268248c819b62ab49fb11125b67b.svg",
+    "static/media/communiaction.svg": "/demo/3d-demo/universe/static/media/communiaction.4667f0c6c69b04719354c2bc89908e0f.svg",
+    "static/media/transportation.svg": "/demo/3d-demo/universe/static/media/transportation.eb23b136dee6b576b5422bb071d7f476.svg",
+    "static/media/power.svg": "/demo/3d-demo/universe/static/media/power.7a237e8efa8e5f16174a9c9b92e42e38.svg",
+    "static/media/finance.svg": "/demo/3d-demo/universe/static/media/finance.e08afdf88dc14de1d54e20f2aba89ea0.svg",
+    "static/media/start.svg": "/demo/3d-demo/universe/static/media/start.260d3d061031e2afb99cee4740cfb664.svg",
     "index.html": "/demo/3d-demo/universe/index.html",
-    "main.a54c2b7d.css.map": "/demo/3d-demo/universe/static/css/main.a54c2b7d.css.map",
-    "main.210d3250.js.map": "/demo/3d-demo/universe/static/js/main.210d3250.js.map"
+    "main.ef9a8160.css.map": "/demo/3d-demo/universe/static/css/main.ef9a8160.css.map",
+    "main.f730b611.js.map": "/demo/3d-demo/universe/static/js/main.f730b611.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54c2b7d.css",
-    "static/js/main.210d3250.js"
+    "static/css/main.ef9a8160.css",
+    "static/js/main.f730b611.js"
   ]
 }
